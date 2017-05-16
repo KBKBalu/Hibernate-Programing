@@ -1,4 +1,4 @@
-package com.provividerpay.prime;
+package balu.app;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
