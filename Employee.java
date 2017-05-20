@@ -36,7 +36,7 @@ public class Employee {
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
-		designation = dessignation;
+		this.designation = dessignation;
 		this.salary = salary;
 	}
 	public long getEmployeeID() {
