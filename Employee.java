@@ -9,7 +9,8 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="Employee")
-public class Employee {
+public class Employee 
+{
 	
 	@Id@GeneratedValue(strategy=GenerationType.AUTO)
 	@Column(name="Employee_ID")
@@ -32,7 +33,8 @@ public class Employee {
 		super();
 	}
 	
-	public Employee(String firstName, String lastName, String dessignation, long salary) {
+	public Employee(String firstName, String lastName, String dessignation, long salary)
+	{
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
